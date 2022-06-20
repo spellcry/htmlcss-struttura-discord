@@ -20,6 +20,10 @@
     flex-direction: row-reverse;
 }
 
+.bg-grey {
+    background-color: #E7E7E7;
+}
+
 /* Header */
 .main-header {
     padding: 10px;
@@ -101,4 +105,15 @@
 
 .debug .col-4 {
     background-color: #F9E0E4;
+}
+
+/* Card 100% */
+.card-100 {
+    padding-block: 50px;
+}
+
+/* Card 100% debug */
+.debug .card-100 .container {
+    height: 900px;
+    background-color: #A1CBA1;
 }
