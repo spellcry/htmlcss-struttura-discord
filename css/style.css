@@ -16,6 +16,10 @@
     display: flex;
 }
 
+.flex--reverse {
+    flex-direction: row-reverse;
+}
+
 /* Header */
 .main-header {
     padding: 10px;
@@ -30,11 +34,11 @@
 }
 
 /* Header debug */
-.main-header.debug {
+.debug .main-header {
     background-color: #D8E9EF;
 }
 
-.main-header.main-header.debug .container {
+.debug .main-header .container {
     background-color: #EAD5A0;
 }
 
@@ -64,11 +68,37 @@
 }
 
 /* Hero debug */
-.hero.debug {
+.debug .hero {
     background-color: #9393CB;
 }
 
-.hero.debug .container {
+.debug .hero .container {
     height: 400px;
     background-color: #F2C7F2;
+}
+
+/* Card 60% 40% */
+.card {
+    padding-block: 50px;
+}
+
+.card .col-6 {
+    flex-basis: 60%;
+}
+
+.card .col-4 {
+    flex-basis: 40%;
+}
+
+/* Card 60% 40% debug */
+.debug .container {
+    height: 500px;
+}
+
+.debug .col-6 {
+    background-color: #9FCDF9;
+}
+
+.debug .col-4 {
+    background-color: #F9E0E4;
 }
