@@ -6,4 +6,50 @@
 }
 
 /* Regole layout */
-.container {}
+.container {
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+/* Utility */
+.flex {
+    display: flex;
+}
+
+/* Header */
+.main-header {
+    padding: 10px;
+}
+
+.main-header .container {
+    padding: 14px;
+}
+
+.main-header__menu {
+    flex-grow: 1;
+}
+
+/* Header debug */
+.main-header.debug {
+    background-color: #D8E9EF;
+}
+
+.main-header.main-header.debug .container {
+    background-color: #EAD5A0;
+}
+
+.debug .main-header__logo,
+.debug a {
+    color: #888;
+    text-decoration: none;
+}
+
+/* Menu */
+.main-header__menu {
+    list-style-type: none;
+    justify-content: center;
+}
+
+.main-header__menu li {
+    padding-inline: 10px;
+}
