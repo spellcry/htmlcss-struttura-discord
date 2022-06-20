@@ -95,7 +95,7 @@
 }
 
 /* Card 60% 40% debug */
-.debug .container {
+.debug .card .container {
     height: 500px;
 }
 
@@ -116,4 +116,60 @@
 .debug .card-100 .container {
     height: 900px;
     background-color: #A1CBA1;
+}
+
+/* Footer */
+.footer__top {
+    padding-block: 10px 40px;
+}
+
+.footer__top .col-4 {
+    flex-basis: calc(calc(100% / 12) * 4);
+}
+
+.footer__top .col-2 {
+    flex-basis: calc(calc(100% / 12) *2);
+}
+
+.footer__bottom {
+    margin-top: 2px;
+    padding-top: 26px;
+}
+
+.footer__bottom .flex {
+    justify-content: space-between;
+}
+
+/* Footer debug */
+.debug .footer__top .container {
+    height: 580px;
+}
+
+.debug .footer__top .col-4 {
+    background-color: #F3C6C6;
+}
+
+.debug .footer__top .col-2 {
+    border: 2px dashed #fff;
+    background-color: #A0DAD7;
+}
+
+.debug .footer>div {
+    background-color: #A1A3A4;
+}
+
+.debug .footer__top .container {
+    height: 580px;
+}
+
+.debug .footer__bottom .container {
+    padding-block: 24px;
+    background-color: #C6F9E8;
+}
+
+.debug .footer__bottom .container>* {
+    line-height: 36px;
+    padding-inline: 5px;
+    background-color: #F9DCE0;
+    color: #888;
 }
