@@ -53,3 +53,22 @@
 .main-header__menu li {
     padding-inline: 10px;
 }
+
+/* Hero */
+.hero {
+    padding-block: 50px;
+}
+
+.hero .container {
+    max-width: 910px;
+}
+
+/* Hero debug */
+.hero.debug {
+    background-color: #9393CB;
+}
+
+.hero.debug .container {
+    height: 400px;
+    background-color: #F2C7F2;
+}
