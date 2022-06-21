@@ -92,7 +92,7 @@
 }
 
 /* Card 60% 40% debug */
-.debug .card .container {
+.debug .card .row {
     height: 500px;
 }
 
