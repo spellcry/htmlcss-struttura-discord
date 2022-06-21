@@ -12,11 +12,12 @@
 }
 
 /* Utility */
-.flex {
+.row {
     display: flex;
+    flex-wrap: wrap;
 }
 
-.flex--reverse {
+.row--reverse {
     flex-direction: row-reverse;
 }
 
@@ -140,7 +141,7 @@
     padding-top: 26px;
 }
 
-.footer__bottom .flex {
+.footer__bottom .row {
     justify-content: space-between;
 }
 
