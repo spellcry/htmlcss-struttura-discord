@@ -158,8 +158,12 @@
     background-color: #A0DAD7;
 }
 
-.debug .footer>div {
+.debug .footer {
     background-color: #A1A3A4;
+}
+
+.footer__top {
+    border-bottom: 2px solid #fff;
 }
 
 .debug .footer__top .container {
