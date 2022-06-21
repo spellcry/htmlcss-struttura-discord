@@ -112,8 +112,12 @@
     padding-block: 50px;
 }
 
+.card-100 .col {
+    flex-basis: 100%;
+}
+
 /* Card 100% debug */
-.debug .card-100 .container {
+.debug .card-100 .container .col {
     height: 900px;
     background-color: #A1CBA1;
 }
